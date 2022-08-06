@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+  </head>
+  <link rel="stylesheet" href="./index.css" />
+  <body>
+    <div id="maincontainer">
+      <div id="header"><h1>Weather Forecast</h1></div>
+      <input id="city" placeholder="                        Enter city name" />
+      <button id="submit" onclick="getData()">Submit</button>
+      <!-- <button  id="submit" onclick="getweather()">Your Location</button> -->
+
+      <div id="top">
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe
+              width="600"
+              height="500"
+              id="gmap_canvas"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+            ></iframe>
+          </div>
+        </div>
+        <div id="container"></div>
+      </div>
+      
+      <div id="top2"></div>
+    </div>
+  </body>
+</html>
+<script src="./index.js"></script>
