@@ -63,7 +63,7 @@ body {
   background-color: lightgreen;
   border-radius: 5vw;
 }
-#h2{
+#h2 {
   margin-left: 30vw;
   margin-top: 4vw;
   margin-bottom: -3vw;
@@ -76,4 +76,19 @@ body {
 }
 .fivebox {
   width: 6vw;
+}
+.getHourlydataButton {
+  padding: 00.6vw 2vw 0.6vw 2vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  border-radius: 0.5vw;
+  border-color: olivedrab;
+  border: none;
+  background-color: blue;
+  color: white;
+}
+
+.getHourlydataButton:hover {
+  background-color: seagreen;
+  color: white;
 }
